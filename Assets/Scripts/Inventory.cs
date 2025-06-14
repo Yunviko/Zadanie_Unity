@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    //public Number of apples
+    public int apples;
+
 }

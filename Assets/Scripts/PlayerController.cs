@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
 
     private bool isDashed;
     private float dashTime = 0f;
+    
 
     public Rigidbody2D rb;
     public Animator anim;
@@ -19,6 +20,8 @@ public class PlayerController : MonoBehaviour
 
     public GroundChecker groundChecker;
     public PlayerStats stats;
+
+    
 
     void Start()
     {
@@ -81,4 +84,6 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
         }
     }
+    
+    
 }

@@ -11,8 +11,6 @@ public class Collectible : MonoBehaviour
         {
             return;
         }
-        //TODO Send info to Player
-        //TODO Check if inventory component exists
         Inventory inventory = collision.gameObject.GetComponent<Inventory>();
 
         Destroy(gameObject);
