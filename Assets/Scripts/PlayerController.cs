@@ -57,6 +57,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && groundChecker.isGrounded)
         {           
             rb.AddForce(Vector2.up * jumpForce);
+            anim.SetBool("isJumping", true);
+        }
+        else
+        {
+            anim.SetBool("isJumping", false);
         }
 
         if (Input.GetKeyDown(KeyCode.F) && !isDashed)
