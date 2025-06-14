@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8893477eeb0cac449eca6b9a333bd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 1
 --- !u!61 &146965111
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1341,7 +1341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8893477eeb0cac449eca6b9a333bd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 1
 --- !u!61 &870603635
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2079,8 +2079,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f1803ebd8925454c91dca425f2b07f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
-  health: 30
+  maxHealth: 3
+  health: 3
   isDead: 0
 --- !u!95 &1506773833
 Animator:
@@ -2123,6 +2123,7 @@ MonoBehaviour:
   - {fileID: 1190030067}
   - {fileID: 1248180554}
   - {fileID: 739699648}
+  playerStats: {fileID: 1506773832}
 --- !u!1 &1615319555
 GameObject:
   m_ObjectHideFlags: 0

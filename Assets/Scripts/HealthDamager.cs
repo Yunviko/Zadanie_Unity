@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[RequireComponent(typeof(Collider2D))] 
+[RequireComponent(typeof(Collider2D))]
 public class HealthDamager : MonoBehaviour
 {
-    public float damage = 10;
+    public float damage = 1;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

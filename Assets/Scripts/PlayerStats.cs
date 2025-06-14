@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] private float maxHealth = 30;
-    [SerializeField] private float health = 30;
+    [SerializeField] public float maxHealth = 3;
+    [SerializeField] public float health = 3;
     private Animator anim;
 
     public bool isDead = false;
