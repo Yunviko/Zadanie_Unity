@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
 
             if (dashTime <= 0)
             {
-                isDashed = false;
+                isDashed = false;             
             }
         }
         else if (Input.GetKey(KeyCode.LeftShift))
