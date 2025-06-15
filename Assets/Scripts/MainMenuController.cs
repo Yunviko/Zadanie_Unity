@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
-    public string newGameSceneName = "SampleScene";
+    public string newGameSceneName = "Level";
     public void OnNewGame()
     {
         Debug.Log($"New Game Button clicked");
